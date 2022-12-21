@@ -13,9 +13,7 @@ module.exports = {
      * }], {});
      */
 
-    await queryInterface.bulkInsert(
-      'Airplanes',
-      [
+    await queryInterface.bulkInsert( 'Airplanes',
         {
           modelNumber: 'Boeing 737',
           capacity: 300,
